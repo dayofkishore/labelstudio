@@ -1,0 +1,32 @@
+<View>
+  <Style>
+    .container { display: flex; flex-direction: row; }
+    .left { flex: 2; margin-right: 10px; }
+    .right { flex: 1; overflow-y: auto; }
+  </Style>
+
+  <View className="container">
+
+    <!-- Left pane: image -->
+    <View className="left">
+      <Image name="image" value="$image" zoom="true" rotateControl="true"/>
+      <RectangleLabels name="bbox" toName="image">
+        <Label value="value" background="#FFA39E"/>
+      </RectangleLabels>
+    </View>
+
+    <!-- Right pane: editable key-value table -->
+    <View className="right">
+      <Header value="Key-Value Pairs"/>
+      <Table name="kvpairs" value="$pairs">
+        <Column value="key" header="Key" editable="false"/>
+        <Column value="value" header="Value" editable="true"/>
+      </Table>
+    </View>
+  </View>
+
+  <!-- Relation tool: link table row to drawn bounding box -->
+  <Relations>
+    <Relation value="matches"/>
+  </Relations>
+</View>

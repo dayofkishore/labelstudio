@@ -1,0 +1,846 @@
+[
+  {
+    "data": {
+      "image": "217506282_1.png",
+      "pairs": [
+        {
+          "key": "bank",
+          "value": "Adams Street"
+        }
+      ]
+    },
+    "predictions": [
+      {
+        "result": [
+          {
+            "from_name": "bbox",
+            "to_name": "image",
+            "type": "rectanglelabels",
+            "value": {
+              "x": 12.75864988565445,
+              "y": 2.4959830567240715,
+              "width": 11.93099170923233,
+              "height": 2.331485226750374,
+              "rotation": 0,
+              "labels": [
+                "value"
+              ]
+            }
+          },
+          {
+            "from_name": "bbox",
+            "to_name": "image",
+            "type": "rectanglelabels",
+            "value": {
+              "x": 12.733286619186401,
+              "y": 5.3736913949251175,
+              "width": 10.034013539552689,
+              "height": 2.163705974817276,
+              "rotation": 0,
+              "labels": [
+                "value"
+              ]
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "data": {
+      "image": "217506282_1.png",
+      "pairs": [
+        {
+          "key": "date",
+          "value": "31-Dec-24"
+        }
+      ]
+    },
+    "predictions": [
+      {
+        "result": [
+          {
+            "from_name": "bbox",
+            "to_name": "image",
+            "type": "rectanglelabels",
+            "value": {
+              "x": 21.77537977695465,
+              "y": 24.483008682727814,
+              "width": 6.094048172235489,
+              "height": 0.8274583145976067,
+              "rotation": 0,
+              "labels": [
+                "value"
+              ]
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "data": {
+      "image": "217506282_1.png",
+      "pairs": [
+        {
+          "key": "issuer",
+          "value": "Ditka Borrower, LLC"
+        }
+      ]
+    },
+    "predictions": [
+      {
+        "result": [
+          {
+            "from_name": "bbox",
+            "to_name": "image",
+            "type": "rectanglelabels",
+            "value": {
+              "x": 21.815291047096252,
+              "y": 19.774891436100006,
+              "width": 2.913867123425007,
+              "height": 0.8202939294278622,
+              "rotation": 0,
+              "labels": [
+                "value"
+              ]
+            }
+          },
+          {
+            "from_name": "bbox",
+            "to_name": "image",
+            "type": "rectanglelabels",
+            "value": {
+              "x": 25.15871226787567,
+              "y": 19.77030038833618,
+              "width": 5.5493466556072235,
+              "height": 0.9498690254986286,
+              "rotation": 0,
+              "labels": [
+                "value"
+              ]
+            }
+          },
+          {
+            "from_name": "bbox",
+            "to_name": "image",
+            "type": "rectanglelabels",
+            "value": {
+              "x": 31.17057979106903,
+              "y": 19.76625621318817,
+              "width": 2.354169264435768,
+              "height": 0.8299312554299831,
+              "rotation": 0,
+              "labels": [
+                "value"
+              ]
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "data": {
+      "image": "217506282_1.png",
+      "pairs": [
+        {
+          "key": "facility",
+          "value": "R/C"
+        }
+      ]
+    },
+    "predictions": [
+      {
+        "result": [
+          {
+            "from_name": "bbox",
+            "to_name": "image",
+            "type": "rectanglelabels",
+            "value": {
+              "x": 22.449229657649994,
+              "y": 28.457075357437134,
+              "width": 2.164231613278389,
+              "height": 0.8392002433538437,
+              "rotation": 0,
+              "labels": [
+                "value"
+              ]
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "data": {
+      "image": "217506282_.png",
+      "pairs": [
+        {
+          "key": "facility_table",
+          "value": ""
+        }
+      ]
+    },
+    "predictions": [
+      {
+        "result": []
+      }
+    ]
+  },
+  {
+    "data": {
+      "image": "217506282_.png",
+      "pairs": [
+        {
+          "key": "cusip",
+          "value": ""
+        }
+      ]
+    },
+    "predictions": [
+      {
+        "result": []
+      }
+    ]
+  },
+  {
+    "data": {
+      "image": "217506282_.png",
+      "pairs": [
+        {
+          "key": "lxid",
+          "value": ""
+        }
+      ]
+    },
+    "predictions": [
+      {
+        "result": []
+      }
+    ]
+  },
+  {
+    "data": {
+      "image": "217506282_.png",
+      "pairs": [
+        {
+          "key": "isin",
+          "value": ""
+        }
+      ]
+    },
+    "predictions": [
+      {
+        "result": []
+      }
+    ]
+  },
+  {
+    "data": {
+      "image": "217506282_1.png",
+      "pairs": [
+        {
+          "key": "internal_id",
+          "value": "C00258175"
+        }
+      ]
+    },
+    "predictions": [
+      {
+        "result": [
+          {
+            "from_name": "bbox",
+            "to_name": "image",
+            "type": "rectanglelabels",
+            "value": {
+              "x": 88.85132670402527,
+              "y": 11.95426806807518,
+              "width": 5.0178345292806625,
+              "height": 0.6555051077157259,
+              "rotation": 0,
+              "labels": [
+                "value"
+              ]
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "data": {
+      "image": "217506282_1.png",
+      "pairs": [
+        {
+          "key": "activity",
+          "value": "Interest"
+        }
+      ]
+    },
+    "predictions": [
+      {
+        "result": []
+      }
+    ]
+  },
+  {
+    "data": {
+      "image": "217506282_.png",
+      "pairs": [
+        {
+          "key": "amount",
+          "value": ""
+        }
+      ]
+    },
+    "predictions": [
+      {
+        "result": []
+      }
+    ]
+  },
+  {
+    "data": {
+      "image": "217506282_.png",
+      "pairs": [
+        {
+          "key": "shareAmount",
+          "value": ""
+        }
+      ]
+    },
+    "predictions": [
+      {
+        "result": []
+      }
+    ]
+  },
+  {
+    "data": {
+      "image": "217506282_1.png",
+      "pairs": [
+        {
+          "key": "contracts_existing_global_amount",
+          "value": "4,900,000.00"
+        }
+      ]
+    },
+    "predictions": [
+      {
+        "result": [
+          {
+            "from_name": "bbox",
+            "to_name": "image",
+            "type": "rectanglelabels",
+            "value": {
+              "x": 63.17579746246338,
+              "y": 33.13475549221039,
+              "width": 7.672322541475296,
+              "height": 0.9245919063687325,
+              "rotation": 0,
+              "labels": [
+                "value"
+              ]
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "data": {
+      "image": "217506282_1.png",
+      "pairs": [
+        {
+          "key": "contracts_existing_share_amount",
+          "value": "452,029.51"
+        }
+      ]
+    },
+    "predictions": [
+      {
+        "result": [
+          {
+            "from_name": "bbox",
+            "to_name": "image",
+            "type": "rectanglelabels",
+            "value": {
+              "x": 79.59251999855042,
+              "y": 33.13339948654175,
+              "width": 6.400634348392487,
+              "height": 0.9087289683520794,
+              "rotation": 0,
+              "labels": [
+                "value"
+              ]
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "data": {
+      "image": "217506282_1.png",
+      "pairs": [
+        {
+          "key": "contracts_existing_global_interest",
+          "value": "26,469.26"
+        }
+      ]
+    },
+    "predictions": [
+      {
+        "result": [
+          {
+            "from_name": "bbox",
+            "to_name": "image",
+            "type": "rectanglelabels",
+            "value": {
+              "x": 83.72935652732849,
+              "y": 40.3051882982254,
+              "width": 5.823786556720734,
+              "height": 0.9161954745650291,
+              "rotation": 0,
+              "labels": [
+                "value"
+              ]
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "data": {
+      "image": "217506282_.png",
+      "pairs": [
+        {
+          "key": "contracts_existing_global_interest_paid",
+          "value": ""
+        }
+      ]
+    },
+    "predictions": [
+      {
+        "result": []
+      }
+    ]
+  },
+  {
+    "data": {
+      "image": "217506282_.png",
+      "pairs": [
+        {
+          "key": "contracts_existing_global_interest_capitalized",
+          "value": ""
+        }
+      ]
+    },
+    "predictions": [
+      {
+        "result": []
+      }
+    ]
+  },
+  {
+    "data": {
+      "image": "217506282_1.png",
+      "pairs": [
+        {
+          "key": "contracts_existing_share_interest",
+          "value": "2,441.81"
+        }
+      ]
+    },
+    "predictions": [
+      {
+        "result": [
+          {
+            "from_name": "bbox",
+            "to_name": "image",
+            "type": "rectanglelabels",
+            "value": {
+              "x": 76.28759145736694,
+              "y": 53.43427658081055,
+              "width": 4.935487732291222,
+              "height": 0.9101231582462788,
+              "rotation": 0,
+              "labels": [
+                "value"
+              ]
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "data": {
+      "image": "217506282_.png",
+      "pairs": [
+        {
+          "key": "contracts_existing_share_interest_paid",
+          "value": ""
+        }
+      ]
+    },
+    "predictions": [
+      {
+        "result": []
+      }
+    ]
+  },
+  {
+    "data": {
+      "image": "217506282_.png",
+      "pairs": [
+        {
+          "key": "contracts_existing_share_interest_capitalized",
+          "value": ""
+        }
+      ]
+    },
+    "predictions": [
+      {
+        "result": []
+      }
+    ]
+  },
+  {
+    "data": {
+      "image": "217506282_1.png",
+      "pairs": [
+        {
+          "key": "contracts_existing_rateOption",
+          "value": "Base Rate"
+        }
+      ]
+    },
+    "predictions": [
+      {
+        "result": [
+          {
+            "from_name": "bbox",
+            "to_name": "image",
+            "type": "rectanglelabels",
+            "value": {
+              "x": 30.272671580314636,
+              "y": 33.12322199344635,
+              "width": 2.9414495453238487,
+              "height": 0.8104545064270496,
+              "rotation": 0,
+              "labels": [
+                "value"
+              ]
+            }
+          },
+          {
+            "from_name": "bbox",
+            "to_name": "image",
+            "type": "rectanglelabels",
+            "value": {
+              "x": 33.638936281204224,
+              "y": 33.102113008499146,
+              "width": 2.6908745989203453,
+              "height": 0.830519013106823,
+              "rotation": 0,
+              "labels": [
+                "value"
+              ]
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "data": {
+      "image": "217506282_1.png",
+      "pairs": [
+        {
+          "key": "contracts_existing_currency",
+          "value": "USD"
+        }
+      ]
+    },
+    "predictions": [
+      {
+        "result": [
+          {
+            "from_name": "bbox",
+            "to_name": "image",
+            "type": "rectanglelabels",
+            "value": {
+              "x": 46.16260826587677,
+              "y": 33.10239911079407,
+              "width": 2.693749964237213,
+              "height": 0.8256342262029648,
+              "rotation": 0,
+              "labels": [
+                "value"
+              ]
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "data": {
+      "image": "217506282_1.png",
+      "pairs": [
+        {
+          "key": "contracts_new_global_amount",
+          "value": "4,900,000.00"
+        }
+      ]
+    },
+    "predictions": [
+      {
+        "result": [
+          {
+            "from_name": "bbox",
+            "to_name": "image",
+            "type": "rectanglelabels",
+            "value": {
+              "x": 77.5459349155426,
+              "y": 56.570589542388916,
+              "width": 7.686062157154083,
+              "height": 0.8919424377381802,
+              "rotation": 0,
+              "labels": [
+                "value"
+              ]
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "data": {
+      "image": "217506282_1.png",
+      "pairs": [
+        {
+          "key": "contracts_new_share_amount",
+          "value": "452,029.51"
+        }
+      ]
+    },
+    "predictions": [
+      {
+        "result": [
+          {
+            "from_name": "bbox",
+            "to_name": "image",
+            "type": "rectanglelabels",
+            "value": {
+              "x": 77.51523852348328,
+              "y": 58.161717653274536,
+              "width": 6.435508280992508,
+              "height": 0.9151901118457317,
+              "rotation": 0,
+              "labels": [
+                "value"
+              ]
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "data": {
+      "image": "217506282_.png",
+      "pairs": [
+        {
+          "key": "contracts_new_global_interest",
+          "value": ""
+        }
+      ]
+    },
+    "predictions": [
+      {
+        "result": []
+      }
+    ]
+  },
+  {
+    "data": {
+      "image": "217506282_.png",
+      "pairs": [
+        {
+          "key": "contracts_new_share_interest",
+          "value": ""
+        }
+      ]
+    },
+    "predictions": [
+      {
+        "result": []
+      }
+    ]
+  },
+  {
+    "data": {
+      "image": "217506282_.png",
+      "pairs": [
+        {
+          "key": "contracts_new_rateOption_name",
+          "value": ""
+        }
+      ]
+    },
+    "predictions": [
+      {
+        "result": []
+      }
+    ]
+  },
+  {
+    "data": {
+      "image": "217506282_.png",
+      "pairs": [
+        {
+          "key": "contracts_new_currency",
+          "value": ""
+        }
+      ]
+    },
+    "predictions": [
+      {
+        "result": []
+      }
+    ]
+  },
+  {
+    "data": {
+      "image": "217506282_.png",
+      "pairs": [
+        {
+          "key": "contracts_new_nextPaymentDate",
+          "value": ""
+        }
+      ]
+    },
+    "predictions": [
+      {
+        "result": []
+      }
+    ]
+  },
+  {
+    "data": {
+      "image": "217506282_1.png",
+      "pairs": [
+        {
+          "key": "contracts_new_maturityDate",
+          "value": "31-Mar-25"
+        }
+      ]
+    },
+    "predictions": [
+      {
+        "result": [
+          {
+            "from_name": "bbox",
+            "to_name": "image",
+            "type": "rectanglelabels",
+            "value": {
+              "x": 77.58849859237671,
+              "y": 59.718817472457886,
+              "width": 6.0127150267362595,
+              "height": 0.8338388055562973,
+              "rotation": 0,
+              "labels": [
+                "value"
+              ]
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "data": {
+      "image": "217506282_.png",
+      "pairs": [
+        {
+          "key": "commitment_fee_rate",
+          "value": ""
+        }
+      ]
+    },
+    "predictions": [
+      {
+        "result": []
+      }
+    ]
+  },
+  {
+    "data": {
+      "image": "217506282_.png",
+      "pairs": [
+        {
+          "key": "contracts_new_rateOption_allIn",
+          "value": ""
+        }
+      ]
+    },
+    "predictions": [
+      {
+        "result": []
+      }
+    ]
+  },
+  {
+    "data": {
+      "image": "217506282_.png",
+      "pairs": [
+        {
+          "key": "contracts_new_rateOption_spread",
+          "value": ""
+        }
+      ]
+    },
+    "predictions": [
+      {
+        "result": []
+      }
+    ]
+  },
+  {
+    "data": {
+      "image": "217506282_.png",
+      "pairs": [
+        {
+          "key": "contracts_new_rateOption_base",
+          "value": ""
+        }
+      ]
+    },
+    "predictions": [
+      {
+        "result": []
+      }
+    ]
+  },
+  {
+    "data": {
+      "image": "217506282_.png",
+      "pairs": [
+        {
+          "key": "contracts_new_rateOption_spreadAdjustment",
+          "value": ""
+        }
+      ]
+    },
+    "predictions": [
+      {
+        "result": []
+      }
+    ]
+  }
+]
