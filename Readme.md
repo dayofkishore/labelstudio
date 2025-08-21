@@ -5,16 +5,16 @@ With this, we adapt LS (label-studio) and integrate into our training/retraining
 ### Changes from previous version 
 In previous versions, we only loaded the (pdf converted to) image files into LS.
 In this version, we are also importing the OCR text json.
-This way, we can now auto-populate the bouding boxes. 
-Annotator do not manually draw the boxes. 
+This way, we can now auto-populate the bounding boxes. 
+Annotators do not manually draw the boxes. 
 
 ### Python modules
 - pdf_to_images.py: Converts a given pdf into png images
 - convert_to_ls.py: Converts the ocr text json into LS tasks
-- convert_to_Textract: Converts the LS json back to textract raster
+- convert_to_Textract.py: Converts the LS json back to textract raster
 
 ### LS config
-- ls_config: Need to use this xml to create custom template for ls label interface.
+- ls_config: Need to use this xml to create custom template for ls labelling interface.
 	
 
 ### Usage of python modules
