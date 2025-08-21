@@ -1,32 +1,38 @@
 <View>
-  <Style>
-    .container { display: flex; flex-direction: row; }
-    .left { flex: 2; margin-right: 10px; }
-    .right { flex: 1; overflow-y: auto; }
-  </Style>
+  <!-- Show the document page image -->
+  <Image name="document" value="$image" zoom="true" rotate="true" maxWidth="100%"/>
 
-  <View className="container">
+  <!-- Each Textract word comes as a Rectangle region (_token).
+       Annotators DO NOT draw boxes; these are preloaded -->
+  <RectangleLabels name="word_boxes" toName="document">
+    <Label value="_token" background="#AAAAAA"/>
+  </RectangleLabels>
 
-    <!-- Left pane: image -->
-    <View className="left">
-      <Image name="image" value="$image" zoom="true" rotateControl="true"/>
-      <RectangleLabels name="bbox" toName="image">
-        <Label value="value" background="#FFA39E"/>
-      </RectangleLabels>
-    </View>
+  <!-- Show the OCR text per word (readonly, not editable) -->
+  <TextArea name="ocr" toName="document" editable="false" maxSubmissions="1" perRegion="true" 
+            showSubmitButton="false" />
 
-    <!-- Right pane: editable key-value table -->
-    <View className="right">
-      <Header value="Key-Value Pairs"/>
-      <Table name="kvpairs" value="$pairs">
-        <Column value="key" header="Key" editable="false"/>
-        <Column value="value" header="Value" editable="true"/>
-      </Table>
-    </View>
-  </View>
+  <!-- Annotators assign a field type (bank, issuer, etc.) per region -->
+  <Choices name="field" toName="document" choice="single" perRegion="true" required="false">
+    <Choice value="bank" />
+    <Choice value="issuer" />
+    <Choice value="cusip" />
+    <Choice value="isin" />
+    <Choice value="maturity" />
+    <Choice value="coupon" />
+    <Choice value="currency" />
+    <Choice value="amount_issued" />
+    <Choice value="issue_price" />
+    <Choice value="denomination" />
+  </Choices>
 
-  <!-- Relation tool: link table row to drawn bounding box -->
-  <Relations>
-    <Relation value="matches"/>
-  </Relations>
+  <!-- Annotators can correct / enter the normalized value for that word -->
+  <TextArea name="value" toName="document" perRegion="true" editable="true" 
+            maxSubmissions="1" showSubmitButton="false" />
+
+  <!-- Show instructions / layout guide -->
+  <Header value="Select a word region (preloaded from Textract).
+                 - 'ocr' shows the original word.
+                 - Use 'field' to label its type (bank, issuer, etc.).
+                 - Use 'value' to confirm or correct the extracted value."/>
 </View>
