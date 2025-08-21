@@ -17,7 +17,7 @@ Annotator do not manually draw the boxes.
 - ls_config: Need to use this xml to create custom template for ls label interface.
 	
 
-### usage of pdf_to_images and convert_to_ls.py
+### Usage of pdf_to_images and convert_to_ls.py
 - python pdf_to_images.py sample_data\135942130.pdf
 - python convert_to_ls.py "sample_data\135942130-text.json" "sample_data\135942130-forms-model.json" "sample_data\135942130_{page}.png" --out "sample_data\135942130ls_tasks.json"
 
