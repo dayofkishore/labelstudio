@@ -25,13 +25,14 @@ Annotator do not manually draw the boxes.
 - this is via python venv (as against through docker)
 - for PoC, we are doing manual importing (as against through API)
 - for PoC, we are using local storage (as against cloud storage)
+- create a venv
 - run requirements.txt
 - from cmd run "label-studio start". This will start ls loclaly at 8080
 - create a project
 - copy xml into custom label interface template
 - import images
-- copy the source for images
-- update the task json in local system with these URLs
+- copy the source of images (just working around ls' issues with local storage, only for poc)
+- update the task json in local system with these URLs (just working around ls' issues with local storage, only for poc)
 - import task json
 - click into task json
 - annotate, update and submit
