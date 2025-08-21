@@ -17,11 +17,11 @@ Annotator do not manually draw the boxes.
 - ls_config: Need to use this xml to create custom template for ls label interface.
 	
 
-### Usage 
+### Usage of python modules
 - python pdf_to_images.py sample_data\135942130.pdf
 - python convert_to_ls.py "sample_data\135942130-text.json" "sample_data\135942130-forms-model.json" "sample_data\135942130_{page}.png" --out "sample_data\135942130ls_tasks.json"
 
-### creating project in ls
+### Adapting and customizing LS
 - run requirements.txt
 - from cmd run "label-studio start". This will start ls loclaly at 8080
 - create a project
