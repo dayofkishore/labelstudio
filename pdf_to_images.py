@@ -29,7 +29,7 @@ def pdfToImages(pdf_path: str) -> list:
     for page_num in range(len(doc)):
         page = doc[page_num]
 
-        # Render page to a pixmap (image)
+        # Render page to a pixmap  (image)
         pix = page.get_pixmap(matrix=fitz.Matrix(2, 2)) 
 
         out_file = os.path.join(pdf_dir, f"{pdf_name}_{page_num + 1}.png")

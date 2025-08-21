@@ -12,7 +12,7 @@
   <TextArea name="ocr" toName="document" editable="false" maxSubmissions="1" perRegion="true" 
             showSubmitButton="false" />
 
-  <!-- Annotators assign a field type (bank, issuer, etc.) per region -->
+  <!-- Annotators assign a label (bank, issuer, etc.) per word region -->
   <Choices name="field" toName="document" choice="single" perRegion="true" required="false">
     <Choice value="bank" />
     <Choice value="issuer" />

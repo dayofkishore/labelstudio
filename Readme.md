@@ -14,7 +14,7 @@ Annotator do not manually draw the boxes.
 - convert_to_Textract: Converts the LS json back to textract raster
 
 ### LS config
-- ls_config: Need to use this xml to create custom template for ls label interface
+- ls_config: Need to use this xml to create custom template for ls label interface.
 	
 
 ### usage of pdf_to_images and convert_to_ls.py
