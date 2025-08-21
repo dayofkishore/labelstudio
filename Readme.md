@@ -1,6 +1,6 @@
 ### Summary
 This code base customizes open source annotation tool Label-Studio.
-With this, we adapt LS (label-studio) and integrate into our NM training/retraining pipeline. 
+With this, we adapt LS (label-studio) and integrate into our training/retraining pipeline. 
 
 ### Changes from previous version 
 In previous versions, we only loaded the (pdf converted to) image files into LS.
