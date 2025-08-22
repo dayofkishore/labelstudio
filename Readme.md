@@ -11,7 +11,7 @@ Annotators do not manually draw the boxes.
 ### Python modules
 - pdf_to_images.py: Converts a given pdf into png images
 - convert_to_ls.py: Converts the ocr text json into LS tasks
-- convert_to_Textract.py: Converts the LS json back to textract raster
+- convert_to_textract.py: Converts the LS json back to textract raster
 
 ### LS config
 - ls_config: Need to use this xml to create custom template for ls labelling interface.
@@ -20,6 +20,7 @@ Annotators do not manually draw the boxes.
 ### Usage of python modules
 - python pdf_to_images.py sample_data\135942130.pdf
 - python convert_to_ls.py "sample_data\135942130-text.json" "sample_data\135942130-forms-model.json" "sample_data\135942130_{page}.png" --out "sample_data\135942130ls_tasks.json"
+- python convert_to_textract.py ls_export.json --out retrain.json
 
 ### Adapting and customizing LS 
 - this is via python venv (as against through docker)
